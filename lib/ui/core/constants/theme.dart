@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:moca/config/constants/color.dart';
-import 'package:moca/config/constants/style.dart';
+import 'package:moca/ui/core/constants/color.dart';
+import 'package:moca/ui/core/constants/style.dart';
 
 class AppTheme {
   static ThemeData get lightTheme {
