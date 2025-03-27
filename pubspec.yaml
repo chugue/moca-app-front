@@ -96,7 +96,7 @@ flutter:
           weight: 800
         - asset: assets/fonts/Pretendard-Black.otf
           weight: 900
-    - family: Maple
+    - family: Maplestory
       fonts:
         - asset: assets/fonts/Maplestory Light.ttf
           weight: 400
