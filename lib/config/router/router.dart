@@ -1,6 +1,8 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:moca/ui/search/search_screen.dart';
 
-final routerPrivider = GoRouter(
-  routes: [GoRoute(path: '/', builder: (context, state) => SearchScreen())],
+final routerProvider = GoRouter(
+  routes: [
+    GoRoute(path: '/', builder: (context, state) => const SearchScreen()),
+  ],
 );
