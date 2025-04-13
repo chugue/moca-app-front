@@ -1,17 +1,16 @@
 import 'dart:ffi';
 
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:moca/ui/activities/widgets/activities_screen/activity_item.dart';
 import 'package:moca/ui/core/constants/color.dart';
 import 'package:moca/ui/core/constants/line.dart';
 import 'package:moca/ui/core/constants/style.dart';
 
-class ActivitiesScreen extends HookConsumerWidget {
+class ActivitiesScreen extends StatelessWidget {
   const ActivitiesScreen({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('내 활동', style: AppTextStyle.sectionHeadline),
