@@ -14,7 +14,7 @@ class AppTheme {
         iconTheme: IconThemeData(color: AppColor.fontDarkGrey),
       ),
       textTheme: const TextTheme(
-        headlineLarge: AppTextStyle.headlineMoney,
+        headlineLarge: AppTextStyle.searchHeader,
         headlineMedium: AppTextStyle.sectionHeadline,
         headlineSmall: AppTextStyle.pageHeadline,
         titleLarge: AppTextStyle.bodyTextBig,

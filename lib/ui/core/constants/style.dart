@@ -13,10 +13,10 @@ class AppTextStyle {
     fontWeight: FontWeight.w700,
   );
 
-  static const TextStyle headlineMoney = TextStyle(
+  static const TextStyle searchHeader = TextStyle(
     fontFamily: maplestory,
-    fontSize: 24.0,
-    fontWeight: FontWeight.w900,
+    fontSize: 18.0,
+    fontWeight: FontWeight.w700,
   );
 
   static const TextStyle pageHeadline = TextStyle(
